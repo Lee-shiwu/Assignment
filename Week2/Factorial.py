@@ -1,5 +1,5 @@
 class math_calculate:
-    def factorial(n):
+    def factorial(self,n):
         if n<0:
             print("Factorial is only defined for non-negative integers.")
         elif n==0 or n==1:
